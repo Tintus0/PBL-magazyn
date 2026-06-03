@@ -1,0 +1,19 @@
+name: smart_magazyn_offline
+description: Offline smart warehouse app for Android tablets with SQLite and Zebra ZPL printing.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.4.1
+  path: ^1.9.1
+  mobile_scanner: ^7.0.1
+  crypto: ^3.0.6
+  shared_preferences: ^2.5.3
+
+flutter:
+  uses-material-design: true
